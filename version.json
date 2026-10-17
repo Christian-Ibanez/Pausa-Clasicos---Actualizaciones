@@ -1,0 +1,14 @@
+{
+  "version": "0.10.0",
+  "novedades": [
+    "Aviso de versión nueva al abrir el juego: con un toque baja los cambios y se reinicia actualizado, sin descargar el APK.",
+    "El APK ahora se llama Pausa-Clasicos.apk."
+  ],
+  "paquete": "paquetes/0.10.0.pck",
+  "tamano": 743540,
+  "sha256": "c6f0b65420801e6b913d483a2efb8e217266ed8c890055e46e78fc6c3572916e",
+  "apk": "Pausa-Clasicos.apk",
+  "apk_minimo": 6,
+  "commit_apk": "69cb01cff2edb89e33ac0b8ee545630a30889067",
+  "apk_version": "0.10.0"
+}
