@@ -1,12 +1,11 @@
 {
-  "version": "0.10.0",
+  "version": "0.11.0",
   "novedades": [
-    "Aviso de versión nueva al abrir el juego: con un toque baja los cambios y se reinicia actualizado, sin descargar el APK.",
-    "El APK ahora se llama Pausa-Clasicos.apk."
+    "Al entrar a un juego con una partida guardada sale un aviso que dice qué se guardó y pregunta si Reanudar o empezar una Nueva partida. La guardada solo se borra cuando de verdad empieza otra. Igual en sudoku, ajedrez y solitario."
   ],
-  "paquete": "paquetes/0.10.0.pck",
-  "tamano": 743540,
-  "sha256": "c6f0b65420801e6b913d483a2efb8e217266ed8c890055e46e78fc6c3572916e",
+  "paquete": "paquetes/0.11.0.pck",
+  "tamano": 748392,
+  "sha256": "490dae15d8178f5ff301e6b4057f68b6d1a3af0ea19e2f24a9a76129f37aa799",
   "apk": "Pausa-Clasicos.apk",
   "apk_minimo": 6,
   "commit_apk": "69cb01cff2edb89e33ac0b8ee545630a30889067",
