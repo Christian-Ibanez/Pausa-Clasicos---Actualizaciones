@@ -1,12 +1,11 @@
 {
-  "version": "0.13.0",
+  "version": "0.14.0",
   "novedades": [
-    "Cada juego tiene su fondo: cuadrículas con números en el sudoku, tablero y piezas en el ajedrez y cartas sueltas en el solitario. Están en los menús y, más tenues, detrás del tablero en cada partida.",
-    "Modo claro u oscuro a elección: en el menú principal se elige Automático (como el celular), Claro u Oscuro, y queda guardado."
+    "Solitario: cuando ya no quedan cartas ocultas en la mesa, sale un aviso que pregunta si Auto resolver (el juego sube las cartas que faltan, robando del mazo si hace falta) o Lo termino yo. Si eliges terminarla tú, no vuelve a preguntar en esa partida. Antes se completaba sola sin preguntar y solo cuando el mazo ya estaba vacío."
   ],
-  "paquete": "paquetes/0.13.0.pck",
-  "tamano": 981224,
-  "sha256": "4d7867b1783634991f6816bbfefe4be378be677a8aceba7aca23075aa4a11677",
+  "paquete": "paquetes/0.14.0.pck",
+  "tamano": 983304,
+  "sha256": "0e964eea7448951a6e98a5524cec84bbf30a64b65d1b5ba6f33516857c37a5e6",
   "apk": "Pausa-Clasicos.apk",
   "apk_minimo": 9,
   "commit_apk": "e45645069d6c5cc3bdfa25efcd77d3741cf4747c",
