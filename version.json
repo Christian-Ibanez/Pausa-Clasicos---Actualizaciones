@@ -1,13 +1,13 @@
 {
-  "version": "0.11.0",
+  "version": "0.12.0",
   "novedades": [
-    "Al entrar a un juego con una partida guardada sale un aviso que dice qué se guardó y pregunta si Reanudar o empezar una Nueva partida. La guardada solo se borra cuando de verdad empieza otra. Igual en sudoku, ajedrez y solitario."
+    "Ícono nuevo: cuatro bloques de sudoku con el rey blanco, el rey negro, el as de picas y el as de corazones. En Android (también el ícono adaptable), iOS y la versión web. Para verlo en el celular hay que instalar el APK nuevo."
   ],
-  "paquete": "paquetes/0.11.0.pck",
-  "tamano": 748392,
-  "sha256": "490dae15d8178f5ff301e6b4057f68b6d1a3af0ea19e2f24a9a76129f37aa799",
+  "paquete": "paquetes/0.12.0.pck",
+  "tamano": 973556,
+  "sha256": "a6b74d47c7f0e1ac1e4bc7704036a4d065639bac3b60f63422e1f88d70d1c237",
   "apk": "Pausa-Clasicos.apk",
-  "apk_minimo": 6,
-  "commit_apk": "69cb01cff2edb89e33ac0b8ee545630a30889067",
-  "apk_version": "0.10.0"
+  "apk_minimo": 8,
+  "commit_apk": "f05f8f3d0ab32c8ba026dbe88158360c154835e6",
+  "apk_version": "0.12.0"
 }
