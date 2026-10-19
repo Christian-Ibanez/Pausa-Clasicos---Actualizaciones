@@ -1,13 +1,13 @@
 {
-  "version": "0.12.0",
+  "version": "0.12.1",
   "novedades": [
-    "Ícono nuevo: cuatro bloques de sudoku con el rey blanco, el rey negro, el as de picas y el as de corazones. En Android (también el ícono adaptable), iOS y la versión web. Para verlo en el celular hay que instalar el APK nuevo."
+    "Android: el juego ahora tiene permiso de internet. Sin él no podía revisar si había versiones nuevas, así que el aviso de actualización nunca salía en el celular. Este APK hay que instalarlo a mano una vez; desde ahí el aviso ya funciona."
   ],
-  "paquete": "paquetes/0.12.0.pck",
+  "paquete": "paquetes/0.12.1.pck",
   "tamano": 973556,
-  "sha256": "a6b74d47c7f0e1ac1e4bc7704036a4d065639bac3b60f63422e1f88d70d1c237",
+  "sha256": "072a7c4ee8ad8b71533842cd5203b1bb0281ac4de1456b4efd0f8b68755fe30f",
   "apk": "Pausa-Clasicos.apk",
-  "apk_minimo": 8,
-  "commit_apk": "f05f8f3d0ab32c8ba026dbe88158360c154835e6",
-  "apk_version": "0.12.0"
+  "apk_minimo": 9,
+  "commit_apk": "e45645069d6c5cc3bdfa25efcd77d3741cf4747c",
+  "apk_version": "0.12.1"
 }
