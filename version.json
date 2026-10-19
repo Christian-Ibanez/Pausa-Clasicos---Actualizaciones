@@ -1,11 +1,12 @@
 {
-  "version": "0.12.1",
+  "version": "0.13.0",
   "novedades": [
-    "Android: el juego ahora tiene permiso de internet. Sin él no podía revisar si había versiones nuevas, así que el aviso de actualización nunca salía en el celular. Este APK hay que instalarlo a mano una vez; desde ahí el aviso ya funciona."
+    "Cada juego tiene su fondo: cuadrículas con números en el sudoku, tablero y piezas en el ajedrez y cartas sueltas en el solitario. Están en los menús y, más tenues, detrás del tablero en cada partida.",
+    "Modo claro u oscuro a elección: en el menú principal se elige Automático (como el celular), Claro u Oscuro, y queda guardado."
   ],
-  "paquete": "paquetes/0.12.1.pck",
-  "tamano": 973556,
-  "sha256": "072a7c4ee8ad8b71533842cd5203b1bb0281ac4de1456b4efd0f8b68755fe30f",
+  "paquete": "paquetes/0.13.0.pck",
+  "tamano": 981224,
+  "sha256": "4d7867b1783634991f6816bbfefe4be378be677a8aceba7aca23075aa4a11677",
   "apk": "Pausa-Clasicos.apk",
   "apk_minimo": 9,
   "commit_apk": "e45645069d6c5cc3bdfa25efcd77d3741cf4747c",
