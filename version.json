@@ -1,10 +1,17 @@
 {
-  "version": "0.21.0",
+  "version": "0.22.0",
   "fecha": "2026-10-20",
   "novedades": [
-    "Sudoku: configuraciones adicionales. En el menú del sudoku, abajo de las estadísticas, se puede activar el límite de errores y elegir 5, 10 o 15. Con el límite activado, durante la partida se ve \"Errores: 2/5\" (se pone rojo cuando queda un solo error) y al llegar al límite la partida se pierde con el aviso \"Sin intentos\" (Nueva partida o Menú del sudoku). Viene desactivado; la elección queda guardada y vale para las partidas nuevas."
+    "Instrucciones en cada juego. En la barra de arriba del sudoku, el ajedrez y el solitario hay un botón redondo con un ?. Al tocarlo sube una hoja con las reglas del juego: el objetivo, cómo se juega, las jugadas especiales y las ayudas. Se cierra con \"Entendido\", la X, tocando fuera o con Atrás. Mientras está abierta, el reloj de la partida se detiene. El botón es un círculo del mismo tamaño en todos los diseños."
   ],
   "historial": [
+    {
+      "version": "0.22.0",
+      "novedades": [
+        "Instrucciones en cada juego. En la barra de arriba del sudoku, el ajedrez y el solitario hay un botón redondo con un ?. Al tocarlo sube una hoja con las reglas del juego: el objetivo, cómo se juega, las jugadas especiales y las ayudas. Se cierra con \"Entendido\", la X, tocando fuera o con Atrás. Mientras está abierta, el reloj de la partida se detiene. El botón es un círculo del mismo tamaño en todos los diseños."
+      ],
+      "fecha": "2026-10-20"
+    },
     {
       "version": "0.21.0",
       "novedades": [
@@ -52,18 +59,11 @@
       "novedades": [
         "Pantalla inicial con colores nuevos, estilo mesa de casino: fondo con degradado y círculos suaves (crema en modo claro, verde paño en oscuro), título con sombra dorada y cada juego con su color (sudoku azul, ajedrez verde, solitario rojo) con borde dorado. Los botones parecen teclas que se hunden al tocarlos."
       ]
-    },
-    {
-      "version": "0.15.0",
-      "novedades": [
-        "Los botones del menú principal tienen su dibujo: bloques de sudoku con números, tablero con piezas de ajedrez y cartas en abanico en el solitario. El nombre del juego queda al centro y se lee bien en modo claro y oscuro.",
-        "Rueda de Ajustes arriba a la derecha del menú: ahí se elige el modo (Automático, Claro u Oscuro) y se puede silenciar el sonido y la música. Todo queda guardado. El selector de modo que estaba bajo los juegos pasó a este panel."
-      ]
     }
   ],
-  "paquete": "paquetes/0.21.0.pck",
-  "tamano": 1910684,
-  "sha256": "6e9bc3c6c045013cf138a6dfd3aaf903174a28922554fc96d45e49f68c657cf5",
+  "paquete": "paquetes/0.22.0.pck",
+  "tamano": 1922264,
+  "sha256": "7cb0100beb93728a630c7bed5e4666106ea3bfb99999d2ec600616cc204304fa",
   "apk": "Pausa-Clasicos.apk",
   "apk_minimo": 9,
   "commit_apk": "e45645069d6c5cc3bdfa25efcd77d3741cf4747c",
