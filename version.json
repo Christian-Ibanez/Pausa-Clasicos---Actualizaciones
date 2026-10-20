@@ -1,12 +1,11 @@
 {
-  "version": "0.15.0",
+  "version": "0.16.0",
   "novedades": [
-    "Los botones del menú principal tienen su dibujo: bloques de sudoku con números, tablero con piezas de ajedrez y cartas en abanico en el solitario. El nombre del juego queda al centro y se lee bien en modo claro y oscuro.",
-    "Rueda de Ajustes arriba a la derecha del menú: ahí se elige el modo (Automático, Claro u Oscuro) y se puede silenciar el sonido y la música. Todo queda guardado. El selector de modo que estaba bajo los juegos pasó a este panel."
+    "Pantalla inicial con colores nuevos, estilo mesa de casino: fondo con degradado y círculos suaves (crema en modo claro, verde paño en oscuro), título con sombra dorada y cada juego con su color (sudoku azul, ajedrez verde, solitario rojo) con borde dorado. Los botones parecen teclas que se hunden al tocarlos."
   ],
-  "paquete": "paquetes/0.15.0.pck",
-  "tamano": 995436,
-  "sha256": "2a8d8d4e693ec7616484ec373507f64a90a651c52d1b066da33e61af6161486b",
+  "paquete": "paquetes/0.16.0.pck",
+  "tamano": 999488,
+  "sha256": "18b625182989dbd8955bd47e966ffd741aba42c0a7856a35de24040154a7dc4a",
   "apk": "Pausa-Clasicos.apk",
   "apk_minimo": 9,
   "commit_apk": "e45645069d6c5cc3bdfa25efcd77d3741cf4747c",
