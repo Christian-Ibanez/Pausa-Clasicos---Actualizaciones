@@ -1,12 +1,17 @@
 {
-  "version": "0.20.0",
+  "version": "0.21.0",
   "fecha": "2026-10-20",
   "novedades": [
-    "Solitario: Modo fácil y Modo difícil. Antes de empezar cada partida nueva el juego pregunta en qué modo jugar: fácil (sale 1 carta del mazo) o difícil (salen 3 a la vez y solo se juega la de arriba). Recuerda el último que elegiste.",
-    "El interruptor \"Robar 3\" se cambió por un botón que dice \"Modo fácil\" o \"Modo difícil\". Antes el interruptor era un punto muy chico que no dejaba ver si estaba activo, y al tocarlo se perdía la partida en curso sin avisar; ahora pregunta primero y deja seguir con la partida.",
-    "En modo difícil las 3 cartas del descarte se ven más separadas."
+    "Sudoku: configuraciones adicionales. En el menú del sudoku, abajo de las estadísticas, se puede activar el límite de errores y elegir 5, 10 o 15. Con el límite activado, durante la partida se ve \"Errores: 2/5\" (se pone rojo cuando queda un solo error) y al llegar al límite la partida se pierde con el aviso \"Sin intentos\" (Nueva partida o Menú del sudoku). Viene desactivado; la elección queda guardada y vale para las partidas nuevas."
   ],
   "historial": [
+    {
+      "version": "0.21.0",
+      "novedades": [
+        "Sudoku: configuraciones adicionales. En el menú del sudoku, abajo de las estadísticas, se puede activar el límite de errores y elegir 5, 10 o 15. Con el límite activado, durante la partida se ve \"Errores: 2/5\" (se pone rojo cuando queda un solo error) y al llegar al límite la partida se pierde con el aviso \"Sin intentos\" (Nueva partida o Menú del sudoku). Viene desactivado; la elección queda guardada y vale para las partidas nuevas."
+      ],
+      "fecha": "2026-10-20"
+    },
     {
       "version": "0.20.0",
       "novedades": [
@@ -54,17 +59,11 @@
         "Los botones del menú principal tienen su dibujo: bloques de sudoku con números, tablero con piezas de ajedrez y cartas en abanico en el solitario. El nombre del juego queda al centro y se lee bien en modo claro y oscuro.",
         "Rueda de Ajustes arriba a la derecha del menú: ahí se elige el modo (Automático, Claro u Oscuro) y se puede silenciar el sonido y la música. Todo queda guardado. El selector de modo que estaba bajo los juegos pasó a este panel."
       ]
-    },
-    {
-      "version": "0.14.0",
-      "novedades": [
-        "Solitario: cuando ya no quedan cartas ocultas en la mesa, sale un aviso que pregunta si Auto resolver (el juego sube las cartas que faltan, robando del mazo si hace falta) o Lo termino yo. Si eliges terminarla tú, no vuelve a preguntar en esa partida. Antes se completaba sola sin preguntar y solo cuando el mazo ya estaba vacío."
-      ]
     }
   ],
-  "paquete": "paquetes/0.20.0.pck",
-  "tamano": 1905184,
-  "sha256": "001daf2e04a9d2329d0c8b61dd57182896c81f0a26307900de34affec8d841c6",
+  "paquete": "paquetes/0.21.0.pck",
+  "tamano": 1910684,
+  "sha256": "6e9bc3c6c045013cf138a6dfd3aaf903174a28922554fc96d45e49f68c657cf5",
   "apk": "Pausa-Clasicos.apk",
   "apk_minimo": 9,
   "commit_apk": "e45645069d6c5cc3bdfa25efcd77d3741cf4747c",
