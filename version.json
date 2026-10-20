@@ -1,11 +1,65 @@
 {
-  "version": "0.17.0",
+  "version": "0.18.0",
+  "fecha": "2026-10-20",
   "novedades": [
-    "Todo el juego usa el diseño de mesa de casino: los menús de sudoku y ajedrez, las partidas, el solitario y todos los avisos (partida guardada, victoria, tablas, auto resolver y actualización). En modo claro, crema con verde; en modo oscuro, paño verde con dorado. Las tarjetas tienen borde dorado, el fondo va en degradado y los botones se hunden al tocarlos."
+    "El aviso de versión nueva sale como una hoja en la parte de abajo de la pantalla, con el número de la versión y dos botones: Más detalles y Actualizar. Más detalles despliega las novedades de cada versión que te falta, cuánto pesa la descarga y cómo se instala. Para cerrarlo sin actualizar: la X, tocar fuera, deslizar la hoja hacia abajo o Atrás."
   ],
-  "paquete": "paquetes/0.17.0.pck",
-  "tamano": 1002336,
-  "sha256": "2f85cba34192b8961bd946e94d832de97e83b434c748bd8d63bde9017bf42205",
+  "historial": [
+    {
+      "version": "0.18.0",
+      "novedades": [
+        "El aviso de versión nueva sale como una hoja en la parte de abajo de la pantalla, con el número de la versión y dos botones: Más detalles y Actualizar. Más detalles despliega las novedades de cada versión que te falta, cuánto pesa la descarga y cómo se instala. Para cerrarlo sin actualizar: la X, tocar fuera, deslizar la hoja hacia abajo o Atrás."
+      ],
+      "fecha": "2026-10-20"
+    },
+    {
+      "version": "0.17.0",
+      "novedades": [
+        "Todo el juego usa el diseño de mesa de casino: los menús de sudoku y ajedrez, las partidas, el solitario y todos los avisos (partida guardada, victoria, tablas, auto resolver y actualización). En modo claro, crema con verde; en modo oscuro, paño verde con dorado. Las tarjetas tienen borde dorado, el fondo va en degradado y los botones se hunden al tocarlos."
+      ]
+    },
+    {
+      "version": "0.16.1",
+      "novedades": [
+        "El panel de Ajustes usa los mismos colores de mesa de casino que la pantalla inicial: tarjeta con borde dorado, título verde (claro) o dorado (oscuro) y botones que se hunden al tocarlos."
+      ]
+    },
+    {
+      "version": "0.16.0",
+      "novedades": [
+        "Pantalla inicial con colores nuevos, estilo mesa de casino: fondo con degradado y círculos suaves (crema en modo claro, verde paño en oscuro), título con sombra dorada y cada juego con su color (sudoku azul, ajedrez verde, solitario rojo) con borde dorado. Los botones parecen teclas que se hunden al tocarlos."
+      ]
+    },
+    {
+      "version": "0.15.0",
+      "novedades": [
+        "Los botones del menú principal tienen su dibujo: bloques de sudoku con números, tablero con piezas de ajedrez y cartas en abanico en el solitario. El nombre del juego queda al centro y se lee bien en modo claro y oscuro.",
+        "Rueda de Ajustes arriba a la derecha del menú: ahí se elige el modo (Automático, Claro u Oscuro) y se puede silenciar el sonido y la música. Todo queda guardado. El selector de modo que estaba bajo los juegos pasó a este panel."
+      ]
+    },
+    {
+      "version": "0.14.0",
+      "novedades": [
+        "Solitario: cuando ya no quedan cartas ocultas en la mesa, sale un aviso que pregunta si Auto resolver (el juego sube las cartas que faltan, robando del mazo si hace falta) o Lo termino yo. Si eliges terminarla tú, no vuelve a preguntar en esa partida. Antes se completaba sola sin preguntar y solo cuando el mazo ya estaba vacío."
+      ]
+    },
+    {
+      "version": "0.13.0",
+      "novedades": [
+        "Cada juego tiene su fondo: cuadrículas con números en el sudoku, tablero y piezas en el ajedrez y cartas sueltas en el solitario. Están en los menús y, más tenues, detrás del tablero en cada partida.",
+        "Modo claro u oscuro a elección: en el menú principal se elige Automático (como el celular), Claro u Oscuro, y queda guardado."
+      ]
+    },
+    {
+      "version": "0.12.1",
+      "novedades": [
+        "Android: el juego ahora tiene permiso de internet. Sin él no podía revisar si había versiones nuevas, así que el aviso de actualización nunca salía en el celular. Este APK hay que instalarlo a mano una vez; desde ahí el aviso ya funciona."
+      ]
+    }
+  ],
+  "paquete": "paquetes/0.18.0.pck",
+  "tamano": 1010768,
+  "sha256": "06602baa1dff45b64fc1809836f86bdbaf5198923edaf817cae26a16b0526ba2",
   "apk": "Pausa-Clasicos.apk",
   "apk_minimo": 9,
   "commit_apk": "e45645069d6c5cc3bdfa25efcd77d3741cf4747c",
