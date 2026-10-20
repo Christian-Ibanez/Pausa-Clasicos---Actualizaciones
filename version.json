@@ -1,10 +1,17 @@
 {
-  "version": "0.22.1",
+  "version": "0.23.0",
   "fecha": "2026-10-20",
   "novedades": [
-    "Botón \"‹ Volver\" igual en todos los diseños. Tiene el tamaño y las esquinas del de Mesa de casino en los 5 diseños (antes en Papel y tinta y Club de ajedrez se veía casi cuadrado y en Caramelo muy redondo). Solo cambian los colores y la letra."
+    "Sudoku: límite de pistas. En Configuraciones adicionales (menú del sudoku) hay un segundo límite, igual que el de errores: se activa o desactiva y se elige 5, 10 o 15 pistas. Durante la partida se ve \"Pistas: 2/5\" y, al usarlas todas, el botón dice \"Sin pistas\" y se apaga; la partida sigue. Viene desactivado y vale para las partidas nuevas."
   ],
   "historial": [
+    {
+      "version": "0.23.0",
+      "novedades": [
+        "Sudoku: límite de pistas. En Configuraciones adicionales (menú del sudoku) hay un segundo límite, igual que el de errores: se activa o desactiva y se elige 5, 10 o 15 pistas. Durante la partida se ve \"Pistas: 2/5\" y, al usarlas todas, el botón dice \"Sin pistas\" y se apaga; la partida sigue. Viene desactivado y vale para las partidas nuevas."
+      ],
+      "fecha": "2026-10-20"
+    },
     {
       "version": "0.22.1",
       "novedades": [
@@ -54,17 +61,11 @@
       "novedades": [
         "Todo el juego usa el diseño de mesa de casino: los menús de sudoku y ajedrez, las partidas, el solitario y todos los avisos (partida guardada, victoria, tablas, auto resolver y actualización). En modo claro, crema con verde; en modo oscuro, paño verde con dorado. Las tarjetas tienen borde dorado, el fondo va en degradado y los botones se hunden al tocarlos."
       ]
-    },
-    {
-      "version": "0.16.1",
-      "novedades": [
-        "El panel de Ajustes usa los mismos colores de mesa de casino que la pantalla inicial: tarjeta con borde dorado, título verde (claro) o dorado (oscuro) y botones que se hunden al tocarlos."
-      ]
     }
   ],
-  "paquete": "paquetes/0.22.1.pck",
-  "tamano": 1922952,
-  "sha256": "146524049d9d960fdf5433880ab5974aaf50e465e13acd0c6dabb7409bd51381",
+  "paquete": "paquetes/0.23.0.pck",
+  "tamano": 1924440,
+  "sha256": "893c7c2f3205531a81b2e15a409adf4521d6767248e6a147d699bf76b3155030",
   "apk": "Pausa-Clasicos.apk",
   "apk_minimo": 9,
   "commit_apk": "e45645069d6c5cc3bdfa25efcd77d3741cf4747c",
