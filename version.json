@@ -1,10 +1,17 @@
 {
-  "version": "0.23.0",
+  "version": "0.23.1",
   "fecha": "2026-10-20",
   "novedades": [
-    "Sudoku: límite de pistas. En Configuraciones adicionales (menú del sudoku) hay un segundo límite, igual que el de errores: se activa o desactiva y se elige 5, 10 o 15 pistas. Durante la partida se ve \"Pistas: 2/5\" y, al usarlas todas, el botón dice \"Sin pistas\" y se apaga; la partida sigue. Viene desactivado y vale para las partidas nuevas."
+    "El menú del sudoku se desliza con el dedo, también tocando sobre las tarjetas y los botones (antes solo se podía con la barra lateral). En el celular ya no se ve la barra. Lo mismo en las instrucciones de cada juego y en \"Más detalles\" del aviso de actualización."
   ],
   "historial": [
+    {
+      "version": "0.23.1",
+      "novedades": [
+        "El menú del sudoku se desliza con el dedo, también tocando sobre las tarjetas y los botones (antes solo se podía con la barra lateral). En el celular ya no se ve la barra. Lo mismo en las instrucciones de cada juego y en \"Más detalles\" del aviso de actualización."
+      ],
+      "fecha": "2026-10-20"
+    },
     {
       "version": "0.23.0",
       "novedades": [
@@ -55,17 +62,11 @@
         "El aviso de versión nueva sale como una hoja en la parte de abajo de la pantalla, con el número de la versión y dos botones: Más detalles y Actualizar. Más detalles despliega las novedades de cada versión que te falta, cuánto pesa la descarga y cómo se instala. Para cerrarlo sin actualizar: la X, tocar fuera, deslizar la hoja hacia abajo o Atrás."
       ],
       "fecha": "2026-10-20"
-    },
-    {
-      "version": "0.17.0",
-      "novedades": [
-        "Todo el juego usa el diseño de mesa de casino: los menús de sudoku y ajedrez, las partidas, el solitario y todos los avisos (partida guardada, victoria, tablas, auto resolver y actualización). En modo claro, crema con verde; en modo oscuro, paño verde con dorado. Las tarjetas tienen borde dorado, el fondo va en degradado y los botones se hunden al tocarlos."
-      ]
     }
   ],
-  "paquete": "paquetes/0.23.0.pck",
-  "tamano": 1924440,
-  "sha256": "893c7c2f3205531a81b2e15a409adf4521d6767248e6a147d699bf76b3155030",
+  "paquete": "paquetes/0.23.1.pck",
+  "tamano": 1925540,
+  "sha256": "365a8274b353b9d3026b21205fd27e3ddb5b75cf553a8df40237ab297ca6dd05",
   "apk": "Pausa-Clasicos.apk",
   "apk_minimo": 9,
   "commit_apk": "e45645069d6c5cc3bdfa25efcd77d3741cf4747c",
