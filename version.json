@@ -1,10 +1,17 @@
 {
-  "version": "0.22.0",
+  "version": "0.22.1",
   "fecha": "2026-10-20",
   "novedades": [
-    "Instrucciones en cada juego. En la barra de arriba del sudoku, el ajedrez y el solitario hay un botón redondo con un ?. Al tocarlo sube una hoja con las reglas del juego: el objetivo, cómo se juega, las jugadas especiales y las ayudas. Se cierra con \"Entendido\", la X, tocando fuera o con Atrás. Mientras está abierta, el reloj de la partida se detiene. El botón es un círculo del mismo tamaño en todos los diseños."
+    "Botón \"‹ Volver\" igual en todos los diseños. Tiene el tamaño y las esquinas del de Mesa de casino en los 5 diseños (antes en Papel y tinta y Club de ajedrez se veía casi cuadrado y en Caramelo muy redondo). Solo cambian los colores y la letra."
   ],
   "historial": [
+    {
+      "version": "0.22.1",
+      "novedades": [
+        "Botón \"‹ Volver\" igual en todos los diseños. Tiene el tamaño y las esquinas del de Mesa de casino en los 5 diseños (antes en Papel y tinta y Club de ajedrez se veía casi cuadrado y en Caramelo muy redondo). Solo cambian los colores y la letra."
+      ],
+      "fecha": "2026-10-20"
+    },
     {
       "version": "0.22.0",
       "novedades": [
@@ -53,17 +60,11 @@
       "novedades": [
         "El panel de Ajustes usa los mismos colores de mesa de casino que la pantalla inicial: tarjeta con borde dorado, título verde (claro) o dorado (oscuro) y botones que se hunden al tocarlos."
       ]
-    },
-    {
-      "version": "0.16.0",
-      "novedades": [
-        "Pantalla inicial con colores nuevos, estilo mesa de casino: fondo con degradado y círculos suaves (crema en modo claro, verde paño en oscuro), título con sombra dorada y cada juego con su color (sudoku azul, ajedrez verde, solitario rojo) con borde dorado. Los botones parecen teclas que se hunden al tocarlos."
-      ]
     }
   ],
-  "paquete": "paquetes/0.22.0.pck",
-  "tamano": 1922264,
-  "sha256": "7cb0100beb93728a630c7bed5e4666106ea3bfb99999d2ec600616cc204304fa",
+  "paquete": "paquetes/0.22.1.pck",
+  "tamano": 1922952,
+  "sha256": "146524049d9d960fdf5433880ab5974aaf50e465e13acd0c6dabb7409bd51381",
   "apk": "Pausa-Clasicos.apk",
   "apk_minimo": 9,
   "commit_apk": "e45645069d6c5cc3bdfa25efcd77d3741cf4747c",
