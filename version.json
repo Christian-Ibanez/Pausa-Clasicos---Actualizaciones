@@ -1,10 +1,21 @@
 {
-  "version": "0.19.0",
+  "version": "0.20.0",
   "fecha": "2026-10-20",
   "novedades": [
-    "Diseños para elegir en Ajustes (rueda del menú): Mesa de casino (el de siempre, predeterminado), Club de ajedrez (madera, crema y vino), Arcade neón (violeta con cian y rosa), Papel y tinta (blanco, negro y rojo) y Caramelo (colores pastel). Cada uno cambia los colores de todo el juego, la letra, lo redondeado de los botones y el tablero de ajedrez, en modo claro y oscuro. Queda guardado."
+    "Solitario: Modo fácil y Modo difícil. Antes de empezar cada partida nueva el juego pregunta en qué modo jugar: fácil (sale 1 carta del mazo) o difícil (salen 3 a la vez y solo se juega la de arriba). Recuerda el último que elegiste.",
+    "El interruptor \"Robar 3\" se cambió por un botón que dice \"Modo fácil\" o \"Modo difícil\". Antes el interruptor era un punto muy chico que no dejaba ver si estaba activo, y al tocarlo se perdía la partida en curso sin avisar; ahora pregunta primero y deja seguir con la partida.",
+    "En modo difícil las 3 cartas del descarte se ven más separadas."
   ],
   "historial": [
+    {
+      "version": "0.20.0",
+      "novedades": [
+        "Solitario: Modo fácil y Modo difícil. Antes de empezar cada partida nueva el juego pregunta en qué modo jugar: fácil (sale 1 carta del mazo) o difícil (salen 3 a la vez y solo se juega la de arriba). Recuerda el último que elegiste.",
+        "El interruptor \"Robar 3\" se cambió por un botón que dice \"Modo fácil\" o \"Modo difícil\". Antes el interruptor era un punto muy chico que no dejaba ver si estaba activo, y al tocarlo se perdía la partida en curso sin avisar; ahora pregunta primero y deja seguir con la partida.",
+        "En modo difícil las 3 cartas del descarte se ven más separadas."
+      ],
+      "fecha": "2026-10-20"
+    },
     {
       "version": "0.19.0",
       "novedades": [
@@ -49,18 +60,11 @@
       "novedades": [
         "Solitario: cuando ya no quedan cartas ocultas en la mesa, sale un aviso que pregunta si Auto resolver (el juego sube las cartas que faltan, robando del mazo si hace falta) o Lo termino yo. Si eliges terminarla tú, no vuelve a preguntar en esa partida. Antes se completaba sola sin preguntar y solo cuando el mazo ya estaba vacío."
       ]
-    },
-    {
-      "version": "0.13.0",
-      "novedades": [
-        "Cada juego tiene su fondo: cuadrículas con números en el sudoku, tablero y piezas en el ajedrez y cartas sueltas en el solitario. Están en los menús y, más tenues, detrás del tablero en cada partida.",
-        "Modo claro u oscuro a elección: en el menú principal se elige Automático (como el celular), Claro u Oscuro, y queda guardado."
-      ]
     }
   ],
-  "paquete": "paquetes/0.19.0.pck",
-  "tamano": 1902704,
-  "sha256": "616b1835ff34a196b2f3bb976f028eb95dc02547e37c2854795984e1c8965654",
+  "paquete": "paquetes/0.20.0.pck",
+  "tamano": 1905184,
+  "sha256": "001daf2e04a9d2329d0c8b61dd57182896c81f0a26307900de34affec8d841c6",
   "apk": "Pausa-Clasicos.apk",
   "apk_minimo": 9,
   "commit_apk": "e45645069d6c5cc3bdfa25efcd77d3741cf4747c",
