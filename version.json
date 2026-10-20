@@ -1,10 +1,17 @@
 {
-  "version": "0.23.1",
+  "version": "0.24.0",
   "fecha": "2026-10-20",
   "novedades": [
-    "El menú del sudoku se desliza con el dedo, también tocando sobre las tarjetas y los botones (antes solo se podía con la barra lateral). En el celular ya no se ve la barra. Lo mismo en las instrucciones de cada juego y en \"Más detalles\" del aviso de actualización."
+    "Sudoku: dificultades más parejas. Antes la dificultad solo dependía de cuántos números venían puestos, así que había partidas de Medio y Difícil que pedían técnicas de experto o incluso adivinar. Ahora cada sudoku viene de un banco calificado según las técnicas que hacen falta: - Fácil: 43-46 números (antes 40). Se resuelve solo mirando dónde cabe cada número, sin notas. - Medio: 35-37 números (antes 32), igual de directo. - Difícil: 27-31 números, necesita notas. - Experto: 23-26 números, técnicas avanzadas, pero nunca adivinar. Además, empezar una partida es instantáneo. Los sudokus de reserva ya guardados se cambian por los nuevos; las estadísticas no se pierden."
   ],
   "historial": [
+    {
+      "version": "0.24.0",
+      "novedades": [
+        "Sudoku: dificultades más parejas. Antes la dificultad solo dependía de cuántos números venían puestos, así que había partidas de Medio y Difícil que pedían técnicas de experto o incluso adivinar. Ahora cada sudoku viene de un banco calificado según las técnicas que hacen falta: - Fácil: 43-46 números (antes 40). Se resuelve solo mirando dónde cabe cada número, sin notas. - Medio: 35-37 números (antes 32), igual de directo. - Difícil: 27-31 números, necesita notas. - Experto: 23-26 números, técnicas avanzadas, pero nunca adivinar. Además, empezar una partida es instantáneo. Los sudokus de reserva ya guardados se cambian por los nuevos; las estadísticas no se pierden."
+      ],
+      "fecha": "2026-10-20"
+    },
     {
       "version": "0.23.1",
       "novedades": [
@@ -55,18 +62,11 @@
         "Diseños para elegir en Ajustes (rueda del menú): Mesa de casino (el de siempre, predeterminado), Club de ajedrez (madera, crema y vino), Arcade neón (violeta con cian y rosa), Papel y tinta (blanco, negro y rojo) y Caramelo (colores pastel). Cada uno cambia los colores de todo el juego, la letra, lo redondeado de los botones y el tablero de ajedrez, en modo claro y oscuro. Queda guardado."
       ],
       "fecha": "2026-10-20"
-    },
-    {
-      "version": "0.18.0",
-      "novedades": [
-        "El aviso de versión nueva sale como una hoja en la parte de abajo de la pantalla, con el número de la versión y dos botones: Más detalles y Actualizar. Más detalles despliega las novedades de cada versión que te falta, cuánto pesa la descarga y cómo se instala. Para cerrarlo sin actualizar: la X, tocar fuera, deslizar la hoja hacia abajo o Atrás."
-      ],
-      "fecha": "2026-10-20"
     }
   ],
-  "paquete": "paquetes/0.23.1.pck",
-  "tamano": 1925540,
-  "sha256": "365a8274b353b9d3026b21205fd27e3ddb5b75cf553a8df40237ab297ca6dd05",
+  "paquete": "paquetes/0.24.0.pck",
+  "tamano": 2015432,
+  "sha256": "e942c1bf8fa8a466ee5d2be03c7b7be2dce4c1296e75278db9a6cab22b72be7f",
   "apk": "Pausa-Clasicos.apk",
   "apk_minimo": 9,
   "commit_apk": "e45645069d6c5cc3bdfa25efcd77d3741cf4747c",
