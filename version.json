@@ -1,11 +1,11 @@
 {
-  "version": "0.16.0",
+  "version": "0.16.1",
   "novedades": [
-    "Pantalla inicial con colores nuevos, estilo mesa de casino: fondo con degradado y círculos suaves (crema en modo claro, verde paño en oscuro), título con sombra dorada y cada juego con su color (sudoku azul, ajedrez verde, solitario rojo) con borde dorado. Los botones parecen teclas que se hunden al tocarlos."
+    "El panel de Ajustes usa los mismos colores de mesa de casino que la pantalla inicial: tarjeta con borde dorado, título verde (claro) o dorado (oscuro) y botones que se hunden al tocarlos."
   ],
-  "paquete": "paquetes/0.16.0.pck",
-  "tamano": 999488,
-  "sha256": "18b625182989dbd8955bd47e966ffd741aba42c0a7856a35de24040154a7dc4a",
+  "paquete": "paquetes/0.16.1.pck",
+  "tamano": 1001664,
+  "sha256": "bb6927a65487f8a16dbcc0d08e1ae78ecfd4e86f1bd00f6351f68cc4fafd4a24",
   "apk": "Pausa-Clasicos.apk",
   "apk_minimo": 9,
   "commit_apk": "e45645069d6c5cc3bdfa25efcd77d3741cf4747c",
