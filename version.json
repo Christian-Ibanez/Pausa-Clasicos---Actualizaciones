@@ -1,10 +1,17 @@
 {
-  "version": "0.34.0",
+  "version": "0.34.1",
   "fecha": "2026-10-21",
   "novedades": [
-    "Solitario: modo fácil más amable. Antes cada partida era un reparto al azar: cerca de 1 de cada 4 no tenía solución y muchas otras solo se ganaban adivinando qué había bajo las cartas ocultas. Ahora el modo fácil solo reparte partidas que se pueden ganar: el propio juego las probó siguiendo solo el botón Pista, así que si te trabas, la Pista te lleva hasta el final. Son más de 3000 repartos distintos. El modo difícil sigue igual (al azar)."
+    "Solitario: partida del día más fácil. Igual que el modo fácil, ahora todas las partidas del día se ganan siguiendo solo el botón Pista (antes siempre tenían solución, pero la mitad exigía adivinar). Las partidas de los próximos días cambian; los días ya completados y la racha se mantienen."
   ],
   "historial": [
+    {
+      "version": "0.34.1",
+      "novedades": [
+        "Solitario: partida del día más fácil. Igual que el modo fácil, ahora todas las partidas del día se ganan siguiendo solo el botón Pista (antes siempre tenían solución, pero la mitad exigía adivinar). Las partidas de los próximos días cambian; los días ya completados y la racha se mantienen."
+      ],
+      "fecha": "2026-10-21"
+    },
     {
       "version": "0.34.0",
       "novedades": [
@@ -61,18 +68,11 @@
         "Sonidos nuevos en ajedrez y solitario. Al mover una pieza suena un golpe de madera sobre el tablero (cuatro golpes distintos que se alternan) y en el solitario suena una carta de verdad, un poco más aguda y suave al robar del mazo. Se silencian con el botón Sonido de Ajustes, como antes. Ambos sonidos son de Pixabay."
       ],
       "fecha": "2026-10-21"
-    },
-    {
-      "version": "0.28.1",
-      "novedades": [
-        "Ajedrez: se quitó la lista de jugadas («7. cxb5 Db8 8. Cxc7+…») de la parte baja de la pantalla de la partida."
-      ],
-      "fecha": "2026-10-21"
     }
   ],
-  "paquete": "paquetes/0.34.0.pck",
-  "tamano": 2932464,
-  "sha256": "a40cdca5305d7e41d3bda6ddd0ceee726f05f76dfb84db7559f11bb3934e7828",
+  "paquete": "paquetes/0.34.1.pck",
+  "tamano": 2932480,
+  "sha256": "4f24000ca7937e4063a8bc6b458b46835adff3976432890a46bc067276ba4618",
   "apk": "Pausa-Clasicos.apk",
   "apk_minimo": 9,
   "commit_apk": "e45645069d6c5cc3bdfa25efcd77d3741cf4747c",
