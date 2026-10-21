@@ -1,10 +1,17 @@
 {
-  "version": "0.28.0",
+  "version": "0.28.1",
   "fecha": "2026-10-21",
   "novedades": [
-    "Ajedrez: piezas de Cristal. Nuevo juego de piezas en «Ajustes del ajedrez» → Piezas: las formas Zagreb hechas de vidrio, con blancas de cristal transparente y negras de cristal negro. Dejan ver el tablero a través y tienen brillos y anillos con reflejos."
+    "Ajedrez: se quitó la lista de jugadas («7. cxb5 Db8 8. Cxc7+…») de la parte baja de la pantalla de la partida."
   ],
   "historial": [
+    {
+      "version": "0.28.1",
+      "novedades": [
+        "Ajedrez: se quitó la lista de jugadas («7. cxb5 Db8 8. Cxc7+…») de la parte baja de la pantalla de la partida."
+      ],
+      "fecha": "2026-10-21"
+    },
     {
       "version": "0.28.0",
       "novedades": [
@@ -54,18 +61,11 @@
         "Sudoku: límite de pistas. En Configuraciones adicionales (menú del sudoku) hay un segundo límite, igual que el de errores: se activa o desactiva y se elige 5, 10 o 15 pistas. Durante la partida se ve \"Pistas: 2/5\" y, al usarlas todas, el botón dice \"Sin pistas\" y se apaga; la partida sigue. Viene desactivado y vale para las partidas nuevas."
       ],
       "fecha": "2026-10-20"
-    },
-    {
-      "version": "0.22.1",
-      "novedades": [
-        "Botón \"‹ Volver\" igual en todos los diseños. Tiene el tamaño y las esquinas del de Mesa de casino en los 5 diseños (antes en Papel y tinta y Club de ajedrez se veía casi cuadrado y en Caramelo muy redondo). Solo cambian los colores y la letra."
-      ],
-      "fecha": "2026-10-20"
     }
   ],
-  "paquete": "paquetes/0.28.0.pck",
-  "tamano": 2965040,
-  "sha256": "0fb913baa2f21ab48f19eaa65c3095f91ae138cffee9109743b5958eb8aaa3a7",
+  "paquete": "paquetes/0.28.1.pck",
+  "tamano": 2964064,
+  "sha256": "a3428d40e7c0d4f1680ff4e06574bcb8e80a870a0720f240776a57466cd670f7",
   "apk": "Pausa-Clasicos.apk",
   "apk_minimo": 9,
   "commit_apk": "e45645069d6c5cc3bdfa25efcd77d3741cf4747c",
