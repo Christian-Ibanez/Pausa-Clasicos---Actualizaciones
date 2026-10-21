@@ -1,11 +1,23 @@
 {
-  "version": "0.30.0",
+  "version": "0.31.0",
   "fecha": "2026-10-21",
   "novedades": [
-    "Solitario: reparto animado. Al empezar una partida las cartas salen volando una a una desde el mazo hacia las 7 columnas, fila por fila como en el Klondike de verdad, y la de arriba de cada columna se da vuelta al llegar (con sonido de carta). Dura menos de 2 segundos y mientras tanto no se puede tocar la mesa.",
-    "Mientras pregunta el modo (fácil o difícil) la mesa queda vacía, solo con el mazo: las cartas se reparten después de elegir. «Seguir con esta partida» vuelve a la partida tal cual, y una partida guardada que se reanuda no se reparte de nuevo."
+    "Solitario: partida del día. Nuevo botón Diario: cada día hay una partida nueva, la misma durante todo el día, que cambia a medianoche (según la fecha del teléfono). Es en modo fácil y siempre se puede ganar: sale de una lista de 1000 repartos que un solucionador ya ganó. Al completarla queda marcada con un visto en la semana y se cuenta la racha de días seguidos. Se guarda aparte: la partida normal no se pierde al jugar la del día, y se puede volver a ella.",
+    "Solitario: barra de abajo. Los botones sueltos pasan a una barra con símbolo y palabra: Ajustes, Diario, Nueva, Pista y Deshacer.",
+    "Solitario: Autocompletar discreto. Cuando no quedan cartas ocultas ya no sale una ventana: aparece un botón «Autocompletar» sobre la mesa que no tapa nada. Se puede seguir jugando y tocarlo cuando se quiera.",
+    "Ajustes del solitario: modo de las partidas nuevas (fácil o difícil) y si «Nueva» pregunta el modo o reparte directo."
   ],
   "historial": [
+    {
+      "version": "0.31.0",
+      "novedades": [
+        "Solitario: partida del día. Nuevo botón Diario: cada día hay una partida nueva, la misma durante todo el día, que cambia a medianoche (según la fecha del teléfono). Es en modo fácil y siempre se puede ganar: sale de una lista de 1000 repartos que un solucionador ya ganó. Al completarla queda marcada con un visto en la semana y se cuenta la racha de días seguidos. Se guarda aparte: la partida normal no se pierde al jugar la del día, y se puede volver a ella.",
+        "Solitario: barra de abajo. Los botones sueltos pasan a una barra con símbolo y palabra: Ajustes, Diario, Nueva, Pista y Deshacer.",
+        "Solitario: Autocompletar discreto. Cuando no quedan cartas ocultas ya no sale una ventana: aparece un botón «Autocompletar» sobre la mesa que no tapa nada. Se puede seguir jugando y tocarlo cuando se quiera.",
+        "Ajustes del solitario: modo de las partidas nuevas (fácil o difícil) y si «Nueva» pregunta el modo o reparte directo."
+      ],
+      "fecha": "2026-10-21"
+    },
     {
       "version": "0.30.0",
       "novedades": [
@@ -56,18 +68,11 @@
         "Sudoku: configuraciones adicionales apagadas en cada partida nueva. El límite de errores y el de pistas vuelven a Desactivado cada vez que abres el menú del sudoku. Si los activas, valen solo para la partida que empiezas (la cantidad 5, 10 o 15 sí se recuerda)."
       ],
       "fecha": "2026-10-21"
-    },
-    {
-      "version": "0.24.0",
-      "novedades": [
-        "Sudoku: dificultades más parejas. Antes la dificultad solo dependía de cuántos números venían puestos, así que había partidas de Medio y Difícil que pedían técnicas de experto o incluso adivinar. Ahora cada sudoku viene de un banco calificado según las técnicas que hacen falta: - Fácil: 43-46 números (antes 40). Se resuelve solo mirando dónde cabe cada número, sin notas. - Medio: 35-37 números (antes 32), igual de directo. - Difícil: 27-31 números, necesita notas. - Experto: 23-26 números, técnicas avanzadas, pero nunca adivinar. Además, empezar una partida es instantáneo. Los sudokus de reserva ya guardados se cambian por los nuevos; las estadísticas no se pierden."
-      ],
-      "fecha": "2026-10-20"
     }
   ],
-  "paquete": "paquetes/0.30.0.pck",
-  "tamano": 2879288,
-  "sha256": "c987a4df02f2f463fbe8a5f31da711d9bb11de2ce598d88cae87f8d428549844",
+  "paquete": "paquetes/0.31.0.pck",
+  "tamano": 2900456,
+  "sha256": "51dedc9238c706a917a7d03a261ea373d97015993a42dbd63a3bcd11b0566840",
   "apk": "Pausa-Clasicos.apk",
   "apk_minimo": 9,
   "commit_apk": "e45645069d6c5cc3bdfa25efcd77d3741cf4747c",
