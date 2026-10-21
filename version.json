@@ -1,13 +1,21 @@
 {
-  "version": "0.35.0",
+  "version": "0.36.0",
   "fecha": "2026-10-21",
   "novedades": [
-    "Solitario: Personalizar. El botón redondo de arriba ahora es una paleta (en lugar del «?»; Cómo jugar sigue en Ajustes). Abre una pantalla con vista previa y tres pestañas: Mesa (la del diseño, 11 fotos, sin dibujos o los colores de cada diseño), Cartas (Clásicas, Inglesa, Atlas y Moderna) y Reverso (azul, rojo, morado y amarillo de la baraja inglesa y 11 ilustraciones). El reverso predeterminado ahora es el azul de la baraja inglesa. Con foto de fondo, una franja detrás de los textos de arriba ayuda a leerlos. También se llega desde Ajustes.",
-    "Solitario: Estadísticas. En Ajustes › Estadísticas, con pestañas Fácil, Difícil y Del día: porcentaje de victorias, rachas, victorias sin deshacer, mejores marcas, promedios y derrotas. Empiezan a contar desde esta versión (las mejores marcas incluyen los récords de antes).",
-    "Solitario: nueva hoja «Nueva partida». La pregunta del modo ahora sube desde abajo: una fila por modo con dibujo de cartas, y abajo «Seguir jugando» con la partida en curso, la anterior o la del día.",
-    "Solitario: franja de abajo con el nombre «Pausa: Clásicos», donde más adelante podrá ir un anuncio."
+    "Solitario: nueva hoja «Partida del día». Sube desde abajo, como «Nueva partida»: la semana con el número de cada día (visto si la completaste, hoy con anillo dorado y medio lleno si va a medias), tu racha, cuántas completaste y tu mejor tiempo, una tarjeta con cómo va la de hoy y el botón para jugarla.",
+    "Arreglo: ya no dice «La dejaste a medias: 0 movimientos» cuando la partida del día todavía no se empezó.",
+    "Fondo de Dublín nuevo: la fachada de The Temple Bar entera."
   ],
   "historial": [
+    {
+      "version": "0.36.0",
+      "novedades": [
+        "Solitario: nueva hoja «Partida del día». Sube desde abajo, como «Nueva partida»: la semana con el número de cada día (visto si la completaste, hoy con anillo dorado y medio lleno si va a medias), tu racha, cuántas completaste y tu mejor tiempo, una tarjeta con cómo va la de hoy y el botón para jugarla.",
+        "Arreglo: ya no dice «La dejaste a medias: 0 movimientos» cuando la partida del día todavía no se empezó.",
+        "Fondo de Dublín nuevo: la fachada de The Temple Bar entera."
+      ],
+      "fecha": "2026-10-21"
+    },
     {
       "version": "0.35.0",
       "novedades": [
@@ -66,19 +74,11 @@
         "Ajustes del solitario: modo de las partidas nuevas (fácil o difícil) y si «Nueva» pregunta el modo o reparte directo."
       ],
       "fecha": "2026-10-21"
-    },
-    {
-      "version": "0.30.0",
-      "novedades": [
-        "Solitario: reparto animado. Al empezar una partida las cartas salen volando una a una desde el mazo hacia las 7 columnas, fila por fila como en el Klondike de verdad, y la de arriba de cada columna se da vuelta al llegar (con sonido de carta). Dura menos de 2 segundos y mientras tanto no se puede tocar la mesa.",
-        "Mientras pregunta el modo (fácil o difícil) la mesa queda vacía, solo con el mazo: las cartas se reparten después de elegir. «Seguir con esta partida» vuelve a la partida tal cual, y una partida guardada que se reanuda no se reparte de nuevo."
-      ],
-      "fecha": "2026-10-21"
     }
   ],
-  "paquete": "paquetes/0.35.0.pck",
-  "tamano": 20333140,
-  "sha256": "90dfa387d655c3c2e42c96c46a6165bb9f7cc047acebfd4f7f263d148df1c761",
+  "paquete": "paquetes/0.36.0.pck",
+  "tamano": 19710456,
+  "sha256": "60f7a35eb6ffce16e49df084175ef63b114735e6705752da0552255c85b1cc64",
   "apk": "Pausa-Clasicos.apk",
   "apk_minimo": 9,
   "commit_apk": "e45645069d6c5cc3bdfa25efcd77d3741cf4747c",
