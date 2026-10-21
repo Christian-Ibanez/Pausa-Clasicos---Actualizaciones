@@ -1,11 +1,23 @@
 {
-  "version": "0.32.0",
+  "version": "0.33.0",
   "fecha": "2026-10-21",
   "novedades": [
-    "Solitario: hoja de Nueva. Al tocar Nueva sale una hoja abajo con Diario, Nuevo reparto y Volver a jugar (empieza otra vez las mismas cartas), y una X para cerrarla. «Otra partida» al ganar abre la misma hoja.",
-    "Solitario: pantalla de Ajustes. Ahora es una lista por secciones con interruptores: Sonidos, Autocompletar (mostrar el botón), Recolección automática (sube las cartas sola cuando se puede), Modo sacar 3, Preguntar el modo, Mostrar temporizador y Cómo jugar."
+    "Solitario: puntaje. Se ganan puntos al jugar (+10 por carta a la fundación, +5 del descarte a una columna, +5 por dar vuelta una carta oculta) y se pierden con algunas jugadas (−15 de la fundación a una columna, −20 por dar vuelta el mazo en modo fácil, −10 por pista). Al ganar se suma un bonus por rapidez (700 000 ÷ segundos). Los puntos se ven arriba durante la partida.",
+    "Solitario: nueva pantalla de victoria. Abanico de cartas, cinta «¡Victoria!» y una tabla Tú / Mejor con puntos, tiempo y movimientos; donde se supera la mejor marca dice «¡Récord!». Las marcas se guardan aparte para modo fácil y difícil. Botones: casita (menú) y Nuevo reparto.",
+    "Solitario: Deshacer cuenta como movimiento. Antes restaba; ahora el contador sube y se quitan los puntos que había dado esa jugada.",
+    "Instrucciones la primera vez. Al entrar por primera vez al sudoku, al ajedrez o al solitario se abren solas las instrucciones. A quien ya había jugado no le salen; siempre están en el botón «?» (y en el solitario también en Ajustes › Cómo jugar)."
   ],
   "historial": [
+    {
+      "version": "0.33.0",
+      "novedades": [
+        "Solitario: puntaje. Se ganan puntos al jugar (+10 por carta a la fundación, +5 del descarte a una columna, +5 por dar vuelta una carta oculta) y se pierden con algunas jugadas (−15 de la fundación a una columna, −20 por dar vuelta el mazo en modo fácil, −10 por pista). Al ganar se suma un bonus por rapidez (700 000 ÷ segundos). Los puntos se ven arriba durante la partida.",
+        "Solitario: nueva pantalla de victoria. Abanico de cartas, cinta «¡Victoria!» y una tabla Tú / Mejor con puntos, tiempo y movimientos; donde se supera la mejor marca dice «¡Récord!». Las marcas se guardan aparte para modo fácil y difícil. Botones: casita (menú) y Nuevo reparto.",
+        "Solitario: Deshacer cuenta como movimiento. Antes restaba; ahora el contador sube y se quitan los puntos que había dado esa jugada.",
+        "Instrucciones la primera vez. Al entrar por primera vez al sudoku, al ajedrez o al solitario se abren solas las instrucciones. A quien ya había jugado no le salen; siempre están en el botón «?» (y en el solitario también en Ajustes › Cómo jugar)."
+      ],
+      "fecha": "2026-10-21"
+    },
     {
       "version": "0.32.0",
       "novedades": [
@@ -59,18 +71,11 @@
         "Ajedrez: elige tu tablero. «Ajustes del ajedrez» (la rueda del menú del ajedrez) ahora tiene dos pestañas: Piezas y Tablero. En Tablero hay 11 opciones, cada una con una muestra con tus piezas: - Según el diseño: el tablero de cada diseño, como hasta ahora (predeterminado). - Madera, Nogal, Verde torneo, Azul y Pizarra. - Torneo negro, Torneo verde, Caoba, Vino y Lila, con su propio color de marco. Los tableros fijos se ven igual en cualquier diseño. La elección se guarda y se usa en el tablero de la partida."
       ],
       "fecha": "2026-10-21"
-    },
-    {
-      "version": "0.26.0",
-      "novedades": [
-        "Ajedrez: elige tus piezas. El menú del ajedrez tiene una rueda arriba a la derecha que abre «Ajustes del ajedrez». Ahí se elige entre 4 juegos de piezas, cada uno con una muestra sobre el tablero: - Clásicas: las de siempre (siguen siendo las predeterminadas). - Zagreb madera: boj y palisandro con veta; la cruz y las bolitas de arriba van en la madera del otro color. - Zagreb brillante: crema y negro laqueado, con brillo. - Torneo: como las Staunton de plástico: alfil con corte, cruz recta y dama con corona de puntas. Las piezas nuevas son más detalladas (anillos, sombreado, crines del caballo) y la cruz del rey se dibuja aparte para que resalte. La elección se guarda y se usa en el tablero, las capturas y la coronación."
-      ],
-      "fecha": "2026-10-21"
     }
   ],
-  "paquete": "paquetes/0.32.0.pck",
-  "tamano": 2912356,
-  "sha256": "e093b6a6fb568768460b5ca1c71339524cea27de4b6caceb3078cee0097f84f3",
+  "paquete": "paquetes/0.33.0.pck",
+  "tamano": 2919396,
+  "sha256": "5cca3dfe7334445078b3bc99c815c2bc17c584ac0c6bc919f66766c0479213b1",
   "apk": "Pausa-Clasicos.apk",
   "apk_minimo": 9,
   "commit_apk": "e45645069d6c5cc3bdfa25efcd77d3741cf4747c",
