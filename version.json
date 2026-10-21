@@ -1,13 +1,17 @@
 {
-  "version": "0.33.0",
+  "version": "0.33.1",
   "fecha": "2026-10-21",
   "novedades": [
-    "Solitario: puntaje. Se ganan puntos al jugar (+10 por carta a la fundación, +5 del descarte a una columna, +5 por dar vuelta una carta oculta) y se pierden con algunas jugadas (−15 de la fundación a una columna, −20 por dar vuelta el mazo en modo fácil, −10 por pista). Al ganar se suma un bonus por rapidez (700 000 ÷ segundos). Los puntos se ven arriba durante la partida.",
-    "Solitario: nueva pantalla de victoria. Abanico de cartas, cinta «¡Victoria!» y una tabla Tú / Mejor con puntos, tiempo y movimientos; donde se supera la mejor marca dice «¡Récord!». Las marcas se guardan aparte para modo fácil y difícil. Botones: casita (menú) y Nuevo reparto.",
-    "Solitario: Deshacer cuenta como movimiento. Antes restaba; ahora el contador sube y se quitan los puntos que había dado esa jugada.",
-    "Instrucciones la primera vez. Al entrar por primera vez al sudoku, al ajedrez o al solitario se abren solas las instrucciones. A quien ya había jugado no le salen; siempre están en el botón «?» (y en el solitario también en Ajustes › Cómo jugar)."
+    "Solitario: se quitó el texto «Incluye … de bonus por rapidez» de la pantalla de victoria (el bonus se sigue sumando al puntaje)."
   ],
   "historial": [
+    {
+      "version": "0.33.1",
+      "novedades": [
+        "Solitario: se quitó el texto «Incluye … de bonus por rapidez» de la pantalla de victoria (el bonus se sigue sumando al puntaje)."
+      ],
+      "fecha": "2026-10-21"
+    },
     {
       "version": "0.33.0",
       "novedades": [
@@ -64,18 +68,11 @@
         "Ajedrez: piezas de Cristal. Nuevo juego de piezas en «Ajustes del ajedrez» → Piezas: las formas Zagreb hechas de vidrio, con blancas de cristal transparente y negras de cristal negro. Dejan ver el tablero a través y tienen brillos y anillos con reflejos."
       ],
       "fecha": "2026-10-21"
-    },
-    {
-      "version": "0.27.0",
-      "novedades": [
-        "Ajedrez: elige tu tablero. «Ajustes del ajedrez» (la rueda del menú del ajedrez) ahora tiene dos pestañas: Piezas y Tablero. En Tablero hay 11 opciones, cada una con una muestra con tus piezas: - Según el diseño: el tablero de cada diseño, como hasta ahora (predeterminado). - Madera, Nogal, Verde torneo, Azul y Pizarra. - Torneo negro, Torneo verde, Caoba, Vino y Lila, con su propio color de marco. Los tableros fijos se ven igual en cualquier diseño. La elección se guarda y se usa en el tablero de la partida."
-      ],
-      "fecha": "2026-10-21"
     }
   ],
-  "paquete": "paquetes/0.33.0.pck",
-  "tamano": 2919396,
-  "sha256": "5cca3dfe7334445078b3bc99c815c2bc17c584ac0c6bc919f66766c0479213b1",
+  "paquete": "paquetes/0.33.1.pck",
+  "tamano": 2919236,
+  "sha256": "ec53f9c0ac040ad8be23f2b0aadb8864a1cbcd91099911975b9e6f50d2f18e43",
   "apk": "Pausa-Clasicos.apk",
   "apk_minimo": 9,
   "commit_apk": "e45645069d6c5cc3bdfa25efcd77d3741cf4747c",
