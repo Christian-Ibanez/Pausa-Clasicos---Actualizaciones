@@ -1,10 +1,17 @@
 {
-  "version": "0.27.0",
+  "version": "0.28.0",
   "fecha": "2026-10-21",
   "novedades": [
-    "Ajedrez: elige tu tablero. «Ajustes del ajedrez» (la rueda del menú del ajedrez) ahora tiene dos pestañas: Piezas y Tablero. En Tablero hay 11 opciones, cada una con una muestra con tus piezas: - Según el diseño: el tablero de cada diseño, como hasta ahora (predeterminado). - Madera, Nogal, Verde torneo, Azul y Pizarra. - Torneo negro, Torneo verde, Caoba, Vino y Lila, con su propio color de marco. Los tableros fijos se ven igual en cualquier diseño. La elección se guarda y se usa en el tablero de la partida."
+    "Ajedrez: piezas de Cristal. Nuevo juego de piezas en «Ajustes del ajedrez» → Piezas: las formas Zagreb hechas de vidrio, con blancas de cristal transparente y negras de cristal negro. Dejan ver el tablero a través y tienen brillos y anillos con reflejos."
   ],
   "historial": [
+    {
+      "version": "0.28.0",
+      "novedades": [
+        "Ajedrez: piezas de Cristal. Nuevo juego de piezas en «Ajustes del ajedrez» → Piezas: las formas Zagreb hechas de vidrio, con blancas de cristal transparente y negras de cristal negro. Dejan ver el tablero a través y tienen brillos y anillos con reflejos."
+      ],
+      "fecha": "2026-10-21"
+    },
     {
       "version": "0.27.0",
       "novedades": [
@@ -54,18 +61,11 @@
         "Botón \"‹ Volver\" igual en todos los diseños. Tiene el tamaño y las esquinas del de Mesa de casino en los 5 diseños (antes en Papel y tinta y Club de ajedrez se veía casi cuadrado y en Caramelo muy redondo). Solo cambian los colores y la letra."
       ],
       "fecha": "2026-10-20"
-    },
-    {
-      "version": "0.22.0",
-      "novedades": [
-        "Instrucciones en cada juego. En la barra de arriba del sudoku, el ajedrez y el solitario hay un botón redondo con un ?. Al tocarlo sube una hoja con las reglas del juego: el objetivo, cómo se juega, las jugadas especiales y las ayudas. Se cierra con \"Entendido\", la X, tocando fuera o con Atrás. Mientras está abierta, el reloj de la partida se detiene. El botón es un círculo del mismo tamaño en todos los diseños."
-      ],
-      "fecha": "2026-10-20"
     }
   ],
-  "paquete": "paquetes/0.27.0.pck",
-  "tamano": 2675856,
-  "sha256": "1001779368ae5fe72050378f2a42d6f5c09d72ee454eab2c072a573d38d19bed",
+  "paquete": "paquetes/0.28.0.pck",
+  "tamano": 2965040,
+  "sha256": "0fb913baa2f21ab48f19eaa65c3095f91ae138cffee9109743b5958eb8aaa3a7",
   "apk": "Pausa-Clasicos.apk",
   "apk_minimo": 9,
   "commit_apk": "e45645069d6c5cc3bdfa25efcd77d3741cf4747c",
