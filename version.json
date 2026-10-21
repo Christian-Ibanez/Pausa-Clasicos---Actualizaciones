@@ -1,10 +1,23 @@
 {
-  "version": "0.34.1",
+  "version": "0.35.0",
   "fecha": "2026-10-21",
   "novedades": [
-    "Solitario: partida del día más fácil. Igual que el modo fácil, ahora todas las partidas del día se ganan siguiendo solo el botón Pista (antes siempre tenían solución, pero la mitad exigía adivinar). Las partidas de los próximos días cambian; los días ya completados y la racha se mantienen."
+    "Solitario: Personalizar. El botón redondo de arriba ahora es una paleta (en lugar del «?»; Cómo jugar sigue en Ajustes). Abre una pantalla con vista previa y tres pestañas: Mesa (la del diseño, 11 fotos, sin dibujos o los colores de cada diseño), Cartas (Clásicas, Inglesa, Atlas y Moderna) y Reverso (azul, rojo, morado y amarillo de la baraja inglesa y 11 ilustraciones). El reverso predeterminado ahora es el azul de la baraja inglesa. Con foto de fondo, una franja detrás de los textos de arriba ayuda a leerlos. También se llega desde Ajustes.",
+    "Solitario: Estadísticas. En Ajustes › Estadísticas, con pestañas Fácil, Difícil y Del día: porcentaje de victorias, rachas, victorias sin deshacer, mejores marcas, promedios y derrotas. Empiezan a contar desde esta versión (las mejores marcas incluyen los récords de antes).",
+    "Solitario: nueva hoja «Nueva partida». La pregunta del modo ahora sube desde abajo: una fila por modo con dibujo de cartas, y abajo «Seguir jugando» con la partida en curso, la anterior o la del día.",
+    "Solitario: franja de abajo con el nombre «Pausa: Clásicos», donde más adelante podrá ir un anuncio."
   ],
   "historial": [
+    {
+      "version": "0.35.0",
+      "novedades": [
+        "Solitario: Personalizar. El botón redondo de arriba ahora es una paleta (en lugar del «?»; Cómo jugar sigue en Ajustes). Abre una pantalla con vista previa y tres pestañas: Mesa (la del diseño, 11 fotos, sin dibujos o los colores de cada diseño), Cartas (Clásicas, Inglesa, Atlas y Moderna) y Reverso (azul, rojo, morado y amarillo de la baraja inglesa y 11 ilustraciones). El reverso predeterminado ahora es el azul de la baraja inglesa. Con foto de fondo, una franja detrás de los textos de arriba ayuda a leerlos. También se llega desde Ajustes.",
+        "Solitario: Estadísticas. En Ajustes › Estadísticas, con pestañas Fácil, Difícil y Del día: porcentaje de victorias, rachas, victorias sin deshacer, mejores marcas, promedios y derrotas. Empiezan a contar desde esta versión (las mejores marcas incluyen los récords de antes).",
+        "Solitario: nueva hoja «Nueva partida». La pregunta del modo ahora sube desde abajo: una fila por modo con dibujo de cartas, y abajo «Seguir jugando» con la partida en curso, la anterior o la del día.",
+        "Solitario: franja de abajo con el nombre «Pausa: Clásicos», donde más adelante podrá ir un anuncio."
+      ],
+      "fecha": "2026-10-21"
+    },
     {
       "version": "0.34.1",
       "novedades": [
@@ -61,18 +74,11 @@
         "Mientras pregunta el modo (fácil o difícil) la mesa queda vacía, solo con el mazo: las cartas se reparten después de elegir. «Seguir con esta partida» vuelve a la partida tal cual, y una partida guardada que se reanuda no se reparte de nuevo."
       ],
       "fecha": "2026-10-21"
-    },
-    {
-      "version": "0.29.0",
-      "novedades": [
-        "Sonidos nuevos en ajedrez y solitario. Al mover una pieza suena un golpe de madera sobre el tablero (cuatro golpes distintos que se alternan) y en el solitario suena una carta de verdad, un poco más aguda y suave al robar del mazo. Se silencian con el botón Sonido de Ajustes, como antes. Ambos sonidos son de Pixabay."
-      ],
-      "fecha": "2026-10-21"
     }
   ],
-  "paquete": "paquetes/0.34.1.pck",
-  "tamano": 2932480,
-  "sha256": "4f24000ca7937e4063a8bc6b458b46835adff3976432890a46bc067276ba4618",
+  "paquete": "paquetes/0.35.0.pck",
+  "tamano": 20333140,
+  "sha256": "90dfa387d655c3c2e42c96c46a6165bb9f7cc047acebfd4f7f263d148df1c761",
   "apk": "Pausa-Clasicos.apk",
   "apk_minimo": 9,
   "commit_apk": "e45645069d6c5cc3bdfa25efcd77d3741cf4747c",
