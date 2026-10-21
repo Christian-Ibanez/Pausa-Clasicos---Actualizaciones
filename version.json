@@ -1,12 +1,17 @@
 {
-  "version": "0.36.0",
+  "version": "0.37.0",
   "fecha": "2026-10-21",
   "novedades": [
-    "Solitario: nueva hoja «Partida del día». Sube desde abajo, como «Nueva partida»: la semana con el número de cada día (visto si la completaste, hoy con anillo dorado y medio lleno si va a medias), tu racha, cuántas completaste y tu mejor tiempo, una tarjeta con cómo va la de hoy y el botón para jugarla.",
-    "Arreglo: ya no dice «La dejaste a medias: 0 movimientos» cuando la partida del día todavía no se empezó.",
-    "Fondo de Dublín nuevo: la fachada de The Temple Bar entera."
+    "Solitario: aviso leve cuando no quedan jugadas. Si ya no hay ninguna jugada útil, aparece abajo de la mesa una píldora chica «Sin jugadas útiles · Deshacer · Nuevo». No para el juego ni tapa las cartas, y se va sola apenas vuelve a haber jugada."
   ],
   "historial": [
+    {
+      "version": "0.37.0",
+      "novedades": [
+        "Solitario: aviso leve cuando no quedan jugadas. Si ya no hay ninguna jugada útil, aparece abajo de la mesa una píldora chica «Sin jugadas útiles · Deshacer · Nuevo». No para el juego ni tapa las cartas, y se va sola apenas vuelve a haber jugada."
+      ],
+      "fecha": "2026-10-21"
+    },
     {
       "version": "0.36.0",
       "novedades": [
@@ -64,21 +69,11 @@
         "Solitario: pantalla de Ajustes. Ahora es una lista por secciones con interruptores: Sonidos, Autocompletar (mostrar el botón), Recolección automática (sube las cartas sola cuando se puede), Modo sacar 3, Preguntar el modo, Mostrar temporizador y Cómo jugar."
       ],
       "fecha": "2026-10-21"
-    },
-    {
-      "version": "0.31.0",
-      "novedades": [
-        "Solitario: partida del día. Nuevo botón Diario: cada día hay una partida nueva, la misma durante todo el día, que cambia a medianoche (según la fecha del teléfono). Es en modo fácil y siempre se puede ganar: sale de una lista de 1000 repartos que un solucionador ya ganó. Al completarla queda marcada con un visto en la semana y se cuenta la racha de días seguidos. Se guarda aparte: la partida normal no se pierde al jugar la del día, y se puede volver a ella.",
-        "Solitario: barra de abajo. Los botones sueltos pasan a una barra con símbolo y palabra: Ajustes, Diario, Nueva, Pista y Deshacer.",
-        "Solitario: Autocompletar discreto. Cuando no quedan cartas ocultas ya no sale una ventana: aparece un botón «Autocompletar» sobre la mesa que no tapa nada. Se puede seguir jugando y tocarlo cuando se quiera.",
-        "Ajustes del solitario: modo de las partidas nuevas (fácil o difícil) y si «Nueva» pregunta el modo o reparte directo."
-      ],
-      "fecha": "2026-10-21"
     }
   ],
-  "paquete": "paquetes/0.36.0.pck",
-  "tamano": 19710456,
-  "sha256": "60f7a35eb6ffce16e49df084175ef63b114735e6705752da0552255c85b1cc64",
+  "paquete": "paquetes/0.37.0.pck",
+  "tamano": 19713240,
+  "sha256": "998080a3d5e78aab7893505085f68cb42ad054a2f0afd8349bd97b71ac861285",
   "apk": "Pausa-Clasicos.apk",
   "apk_minimo": 9,
   "commit_apk": "e45645069d6c5cc3bdfa25efcd77d3741cf4747c",
