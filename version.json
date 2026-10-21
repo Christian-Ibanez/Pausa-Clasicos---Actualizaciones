@@ -1,10 +1,19 @@
 {
-  "version": "0.29.0",
+  "version": "0.30.0",
   "fecha": "2026-10-21",
   "novedades": [
-    "Sonidos nuevos en ajedrez y solitario. Al mover una pieza suena un golpe de madera sobre el tablero (cuatro golpes distintos que se alternan) y en el solitario suena una carta de verdad, un poco más aguda y suave al robar del mazo. Se silencian con el botón Sonido de Ajustes, como antes. Ambos sonidos son de Pixabay."
+    "Solitario: reparto animado. Al empezar una partida las cartas salen volando una a una desde el mazo hacia las 7 columnas, fila por fila como en el Klondike de verdad, y la de arriba de cada columna se da vuelta al llegar (con sonido de carta). Dura menos de 2 segundos y mientras tanto no se puede tocar la mesa.",
+    "Mientras pregunta el modo (fácil o difícil) la mesa queda vacía, solo con el mazo: las cartas se reparten después de elegir. «Seguir con esta partida» vuelve a la partida tal cual, y una partida guardada que se reanuda no se reparte de nuevo."
   ],
   "historial": [
+    {
+      "version": "0.30.0",
+      "novedades": [
+        "Solitario: reparto animado. Al empezar una partida las cartas salen volando una a una desde el mazo hacia las 7 columnas, fila por fila como en el Klondike de verdad, y la de arriba de cada columna se da vuelta al llegar (con sonido de carta). Dura menos de 2 segundos y mientras tanto no se puede tocar la mesa.",
+        "Mientras pregunta el modo (fácil o difícil) la mesa queda vacía, solo con el mazo: las cartas se reparten después de elegir. «Seguir con esta partida» vuelve a la partida tal cual, y una partida guardada que se reanuda no se reparte de nuevo."
+      ],
+      "fecha": "2026-10-21"
+    },
     {
       "version": "0.29.0",
       "novedades": [
@@ -54,18 +63,11 @@
         "Sudoku: dificultades más parejas. Antes la dificultad solo dependía de cuántos números venían puestos, así que había partidas de Medio y Difícil que pedían técnicas de experto o incluso adivinar. Ahora cada sudoku viene de un banco calificado según las técnicas que hacen falta: - Fácil: 43-46 números (antes 40). Se resuelve solo mirando dónde cabe cada número, sin notas. - Medio: 35-37 números (antes 32), igual de directo. - Difícil: 27-31 números, necesita notas. - Experto: 23-26 números, técnicas avanzadas, pero nunca adivinar. Además, empezar una partida es instantáneo. Los sudokus de reserva ya guardados se cambian por los nuevos; las estadísticas no se pierden."
       ],
       "fecha": "2026-10-20"
-    },
-    {
-      "version": "0.23.1",
-      "novedades": [
-        "El menú del sudoku se desliza con el dedo, también tocando sobre las tarjetas y los botones (antes solo se podía con la barra lateral). En el celular ya no se ve la barra. Lo mismo en las instrucciones de cada juego y en \"Más detalles\" del aviso de actualización."
-      ],
-      "fecha": "2026-10-20"
     }
   ],
-  "paquete": "paquetes/0.29.0.pck",
-  "tamano": 2875928,
-  "sha256": "763fc87dc734b81e48825202779226ea614dd4ab3fe8bba5958d3dc237ec8098",
+  "paquete": "paquetes/0.30.0.pck",
+  "tamano": 2879288,
+  "sha256": "c987a4df02f2f463fbe8a5f31da711d9bb11de2ce598d88cae87f8d428549844",
   "apk": "Pausa-Clasicos.apk",
   "apk_minimo": 9,
   "commit_apk": "e45645069d6c5cc3bdfa25efcd77d3741cf4747c",
