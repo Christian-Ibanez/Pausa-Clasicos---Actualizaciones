@@ -1,10 +1,17 @@
 {
-  "version": "0.26.0",
+  "version": "0.27.0",
   "fecha": "2026-10-21",
   "novedades": [
-    "Ajedrez: elige tus piezas. El menú del ajedrez tiene una rueda arriba a la derecha que abre «Ajustes del ajedrez». Ahí se elige entre 4 juegos de piezas, cada uno con una muestra sobre el tablero: - Clásicas: las de siempre (siguen siendo las predeterminadas). - Zagreb madera: boj y palisandro con veta; la cruz y las bolitas de arriba van en la madera del otro color. - Zagreb brillante: crema y negro laqueado, con brillo. - Torneo: como las Staunton de plástico: alfil con corte, cruz recta y dama con corona de puntas. Las piezas nuevas son más detalladas (anillos, sombreado, crines del caballo) y la cruz del rey se dibuja aparte para que resalte. La elección se guarda y se usa en el tablero, las capturas y la coronación."
+    "Ajedrez: elige tu tablero. «Ajustes del ajedrez» (la rueda del menú del ajedrez) ahora tiene dos pestañas: Piezas y Tablero. En Tablero hay 11 opciones, cada una con una muestra con tus piezas: - Según el diseño: el tablero de cada diseño, como hasta ahora (predeterminado). - Madera, Nogal, Verde torneo, Azul y Pizarra. - Torneo negro, Torneo verde, Caoba, Vino y Lila, con su propio color de marco. Los tableros fijos se ven igual en cualquier diseño. La elección se guarda y se usa en el tablero de la partida."
   ],
   "historial": [
+    {
+      "version": "0.27.0",
+      "novedades": [
+        "Ajedrez: elige tu tablero. «Ajustes del ajedrez» (la rueda del menú del ajedrez) ahora tiene dos pestañas: Piezas y Tablero. En Tablero hay 11 opciones, cada una con una muestra con tus piezas: - Según el diseño: el tablero de cada diseño, como hasta ahora (predeterminado). - Madera, Nogal, Verde torneo, Azul y Pizarra. - Torneo negro, Torneo verde, Caoba, Vino y Lila, con su propio color de marco. Los tableros fijos se ven igual en cualquier diseño. La elección se guarda y se usa en el tablero de la partida."
+      ],
+      "fecha": "2026-10-21"
+    },
     {
       "version": "0.26.0",
       "novedades": [
@@ -54,18 +61,11 @@
         "Instrucciones en cada juego. En la barra de arriba del sudoku, el ajedrez y el solitario hay un botón redondo con un ?. Al tocarlo sube una hoja con las reglas del juego: el objetivo, cómo se juega, las jugadas especiales y las ayudas. Se cierra con \"Entendido\", la X, tocando fuera o con Atrás. Mientras está abierta, el reloj de la partida se detiene. El botón es un círculo del mismo tamaño en todos los diseños."
       ],
       "fecha": "2026-10-20"
-    },
-    {
-      "version": "0.21.0",
-      "novedades": [
-        "Sudoku: configuraciones adicionales. En el menú del sudoku, abajo de las estadísticas, se puede activar el límite de errores y elegir 5, 10 o 15. Con el límite activado, durante la partida se ve \"Errores: 2/5\" (se pone rojo cuando queda un solo error) y al llegar al límite la partida se pierde con el aviso \"Sin intentos\" (Nueva partida o Menú del sudoku). Viene desactivado; la elección queda guardada y vale para las partidas nuevas."
-      ],
-      "fecha": "2026-10-20"
     }
   ],
-  "paquete": "paquetes/0.26.0.pck",
-  "tamano": 2669888,
-  "sha256": "4bb8afcf88076734bafb30d9014bf8a23965e0ab38a5afbe99280ffe4b072682",
+  "paquete": "paquetes/0.27.0.pck",
+  "tamano": 2675856,
+  "sha256": "1001779368ae5fe72050378f2a42d6f5c09d72ee454eab2c072a573d38d19bed",
   "apk": "Pausa-Clasicos.apk",
   "apk_minimo": 9,
   "commit_apk": "e45645069d6c5cc3bdfa25efcd77d3741cf4747c",
