@@ -1,10 +1,17 @@
 {
-  "version": "0.28.1",
+  "version": "0.29.0",
   "fecha": "2026-10-21",
   "novedades": [
-    "Ajedrez: se quitó la lista de jugadas («7. cxb5 Db8 8. Cxc7+…») de la parte baja de la pantalla de la partida."
+    "Sonidos nuevos en ajedrez y solitario. Al mover una pieza suena un golpe de madera sobre el tablero (cuatro golpes distintos que se alternan) y en el solitario suena una carta de verdad, un poco más aguda y suave al robar del mazo. Se silencian con el botón Sonido de Ajustes, como antes. Ambos sonidos son de Pixabay."
   ],
   "historial": [
+    {
+      "version": "0.29.0",
+      "novedades": [
+        "Sonidos nuevos en ajedrez y solitario. Al mover una pieza suena un golpe de madera sobre el tablero (cuatro golpes distintos que se alternan) y en el solitario suena una carta de verdad, un poco más aguda y suave al robar del mazo. Se silencian con el botón Sonido de Ajustes, como antes. Ambos sonidos son de Pixabay."
+      ],
+      "fecha": "2026-10-21"
+    },
     {
       "version": "0.28.1",
       "novedades": [
@@ -54,18 +61,11 @@
         "El menú del sudoku se desliza con el dedo, también tocando sobre las tarjetas y los botones (antes solo se podía con la barra lateral). En el celular ya no se ve la barra. Lo mismo en las instrucciones de cada juego y en \"Más detalles\" del aviso de actualización."
       ],
       "fecha": "2026-10-20"
-    },
-    {
-      "version": "0.23.0",
-      "novedades": [
-        "Sudoku: límite de pistas. En Configuraciones adicionales (menú del sudoku) hay un segundo límite, igual que el de errores: se activa o desactiva y se elige 5, 10 o 15 pistas. Durante la partida se ve \"Pistas: 2/5\" y, al usarlas todas, el botón dice \"Sin pistas\" y se apaga; la partida sigue. Viene desactivado y vale para las partidas nuevas."
-      ],
-      "fecha": "2026-10-20"
     }
   ],
-  "paquete": "paquetes/0.28.1.pck",
-  "tamano": 2964064,
-  "sha256": "a3428d40e7c0d4f1680ff4e06574bcb8e80a870a0720f240776a57466cd670f7",
+  "paquete": "paquetes/0.29.0.pck",
+  "tamano": 2875928,
+  "sha256": "763fc87dc734b81e48825202779226ea614dd4ab3fe8bba5958d3dc237ec8098",
   "apk": "Pausa-Clasicos.apk",
   "apk_minimo": 9,
   "commit_apk": "e45645069d6c5cc3bdfa25efcd77d3741cf4747c",
