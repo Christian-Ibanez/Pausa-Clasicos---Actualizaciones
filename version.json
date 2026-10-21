@@ -1,13 +1,19 @@
 {
-  "version": "0.31.0",
+  "version": "0.32.0",
   "fecha": "2026-10-21",
   "novedades": [
-    "Solitario: partida del día. Nuevo botón Diario: cada día hay una partida nueva, la misma durante todo el día, que cambia a medianoche (según la fecha del teléfono). Es en modo fácil y siempre se puede ganar: sale de una lista de 1000 repartos que un solucionador ya ganó. Al completarla queda marcada con un visto en la semana y se cuenta la racha de días seguidos. Se guarda aparte: la partida normal no se pierde al jugar la del día, y se puede volver a ella.",
-    "Solitario: barra de abajo. Los botones sueltos pasan a una barra con símbolo y palabra: Ajustes, Diario, Nueva, Pista y Deshacer.",
-    "Solitario: Autocompletar discreto. Cuando no quedan cartas ocultas ya no sale una ventana: aparece un botón «Autocompletar» sobre la mesa que no tapa nada. Se puede seguir jugando y tocarlo cuando se quiera.",
-    "Ajustes del solitario: modo de las partidas nuevas (fácil o difícil) y si «Nueva» pregunta el modo o reparte directo."
+    "Solitario: hoja de Nueva. Al tocar Nueva sale una hoja abajo con Diario, Nuevo reparto y Volver a jugar (empieza otra vez las mismas cartas), y una X para cerrarla. «Otra partida» al ganar abre la misma hoja.",
+    "Solitario: pantalla de Ajustes. Ahora es una lista por secciones con interruptores: Sonidos, Autocompletar (mostrar el botón), Recolección automática (sube las cartas sola cuando se puede), Modo sacar 3, Preguntar el modo, Mostrar temporizador y Cómo jugar."
   ],
   "historial": [
+    {
+      "version": "0.32.0",
+      "novedades": [
+        "Solitario: hoja de Nueva. Al tocar Nueva sale una hoja abajo con Diario, Nuevo reparto y Volver a jugar (empieza otra vez las mismas cartas), y una X para cerrarla. «Otra partida» al ganar abre la misma hoja.",
+        "Solitario: pantalla de Ajustes. Ahora es una lista por secciones con interruptores: Sonidos, Autocompletar (mostrar el botón), Recolección automática (sube las cartas sola cuando se puede), Modo sacar 3, Preguntar el modo, Mostrar temporizador y Cómo jugar."
+      ],
+      "fecha": "2026-10-21"
+    },
     {
       "version": "0.31.0",
       "novedades": [
@@ -60,19 +66,11 @@
         "Ajedrez: elige tus piezas. El menú del ajedrez tiene una rueda arriba a la derecha que abre «Ajustes del ajedrez». Ahí se elige entre 4 juegos de piezas, cada uno con una muestra sobre el tablero: - Clásicas: las de siempre (siguen siendo las predeterminadas). - Zagreb madera: boj y palisandro con veta; la cruz y las bolitas de arriba van en la madera del otro color. - Zagreb brillante: crema y negro laqueado, con brillo. - Torneo: como las Staunton de plástico: alfil con corte, cruz recta y dama con corona de puntas. Las piezas nuevas son más detalladas (anillos, sombreado, crines del caballo) y la cruz del rey se dibuja aparte para que resalte. La elección se guarda y se usa en el tablero, las capturas y la coronación."
       ],
       "fecha": "2026-10-21"
-    },
-    {
-      "version": "0.25.0",
-      "novedades": [
-        "Botones con símbolos. Los botones de abajo en los tres juegos ahora tienen un dibujo con la palabra chica debajo: ampolleta para Pista, goma para Borrar, flecha que vuelve para Deshacer, lápiz para Notas y flechas en círculo para Nueva partida. Toman los colores de cada diseño y se ven más tenues cuando están apagados.",
-        "Sudoku: configuraciones adicionales apagadas en cada partida nueva. El límite de errores y el de pistas vuelven a Desactivado cada vez que abres el menú del sudoku. Si los activas, valen solo para la partida que empiezas (la cantidad 5, 10 o 15 sí se recuerda)."
-      ],
-      "fecha": "2026-10-21"
     }
   ],
-  "paquete": "paquetes/0.31.0.pck",
-  "tamano": 2900456,
-  "sha256": "51dedc9238c706a917a7d03a261ea373d97015993a42dbd63a3bcd11b0566840",
+  "paquete": "paquetes/0.32.0.pck",
+  "tamano": 2912356,
+  "sha256": "e093b6a6fb568768460b5ca1c71339524cea27de4b6caceb3078cee0097f84f3",
   "apk": "Pausa-Clasicos.apk",
   "apk_minimo": 9,
   "commit_apk": "e45645069d6c5cc3bdfa25efcd77d3741cf4747c",
