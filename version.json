@@ -1,10 +1,19 @@
 {
-  "version": "0.24.0",
-  "fecha": "2026-10-20",
+  "version": "0.25.0",
+  "fecha": "2026-10-21",
   "novedades": [
-    "Sudoku: dificultades más parejas. Antes la dificultad solo dependía de cuántos números venían puestos, así que había partidas de Medio y Difícil que pedían técnicas de experto o incluso adivinar. Ahora cada sudoku viene de un banco calificado según las técnicas que hacen falta: - Fácil: 43-46 números (antes 40). Se resuelve solo mirando dónde cabe cada número, sin notas. - Medio: 35-37 números (antes 32), igual de directo. - Difícil: 27-31 números, necesita notas. - Experto: 23-26 números, técnicas avanzadas, pero nunca adivinar. Además, empezar una partida es instantáneo. Los sudokus de reserva ya guardados se cambian por los nuevos; las estadísticas no se pierden."
+    "Botones con símbolos. Los botones de abajo en los tres juegos ahora tienen un dibujo con la palabra chica debajo: ampolleta para Pista, goma para Borrar, flecha que vuelve para Deshacer, lápiz para Notas y flechas en círculo para Nueva partida. Toman los colores de cada diseño y se ven más tenues cuando están apagados.",
+    "Sudoku: configuraciones adicionales apagadas en cada partida nueva. El límite de errores y el de pistas vuelven a Desactivado cada vez que abres el menú del sudoku. Si los activas, valen solo para la partida que empiezas (la cantidad 5, 10 o 15 sí se recuerda)."
   ],
   "historial": [
+    {
+      "version": "0.25.0",
+      "novedades": [
+        "Botones con símbolos. Los botones de abajo en los tres juegos ahora tienen un dibujo con la palabra chica debajo: ampolleta para Pista, goma para Borrar, flecha que vuelve para Deshacer, lápiz para Notas y flechas en círculo para Nueva partida. Toman los colores de cada diseño y se ven más tenues cuando están apagados.",
+        "Sudoku: configuraciones adicionales apagadas en cada partida nueva. El límite de errores y el de pistas vuelven a Desactivado cada vez que abres el menú del sudoku. Si los activas, valen solo para la partida que empiezas (la cantidad 5, 10 o 15 sí se recuerda)."
+      ],
+      "fecha": "2026-10-21"
+    },
     {
       "version": "0.24.0",
       "novedades": [
@@ -55,18 +64,11 @@
         "En modo difícil las 3 cartas del descarte se ven más separadas."
       ],
       "fecha": "2026-10-20"
-    },
-    {
-      "version": "0.19.0",
-      "novedades": [
-        "Diseños para elegir en Ajustes (rueda del menú): Mesa de casino (el de siempre, predeterminado), Club de ajedrez (madera, crema y vino), Arcade neón (violeta con cian y rosa), Papel y tinta (blanco, negro y rojo) y Caramelo (colores pastel). Cada uno cambia los colores de todo el juego, la letra, lo redondeado de los botones y el tablero de ajedrez, en modo claro y oscuro. Queda guardado."
-      ],
-      "fecha": "2026-10-20"
     }
   ],
-  "paquete": "paquetes/0.24.0.pck",
-  "tamano": 2015432,
-  "sha256": "e942c1bf8fa8a466ee5d2be03c7b7be2dce4c1296e75278db9a6cab22b72be7f",
+  "paquete": "paquetes/0.25.0.pck",
+  "tamano": 2019584,
+  "sha256": "f41008836524564ca71755bcc45c29da5ac69af68019a71fd478c25bc114640d",
   "apk": "Pausa-Clasicos.apk",
   "apk_minimo": 9,
   "commit_apk": "e45645069d6c5cc3bdfa25efcd77d3741cf4747c",
