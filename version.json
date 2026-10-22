@@ -1,10 +1,27 @@
 {
-  "version": "0.37.0",
-  "fecha": "2026-10-21",
+  "version": "0.38.0",
+  "fecha": "2026-10-22",
   "novedades": [
-    "Solitario: aviso leve cuando no quedan jugadas. Si ya no hay ninguna jugada útil, aparece abajo de la mesa una píldora chica «Sin jugadas útiles · Deshacer · Nuevo». No para el juego ni tapa las cartas, y se va sola apenas vuelve a haber jugada."
+    "Sudoku con diseño nuevo. El menú ahora tiene arriba la tarjeta del Desafío del día con la semana, después Continuar y los cuatro niveles con su tablerito y tu récord de puntos. Abajo, la barra Diario · Estadísticas · Ajustes, como en el solitario.",
+    "Desafío del día: un sudoku nuevo cada día, el mismo para todos. Lunes y martes es Fácil, miércoles y jueves Medio, viernes y sábado Difícil, y el domingo Experto. Lleva racha y su propia hoja con la semana, completados y mejor tiempo. Una partida del día a medias no se pierde al empezar otra.",
+    "Puntaje: cada casilla correcta suma según el nivel (Fácil 20, Medio 60, Difícil 100, Experto 150), completar una fila, columna, caja o los nueve de un número da el doble de la base, un error resta y la casilla de una Pista no suma. Al ganar hay bonus por rapidez y por cero errores, y se marca el ¡Récord!. Los puntos que ganas suben desde la casilla.",
+    "Partida: arriba Errores · Puntos · Tiempo, botón de pausa (tapa el tablero), herramientas redondas (Notas dice SÍ/NO y Pista cuántas quedan) y el teclado muestra cuántos faltan de cada número.",
+    "Ajustes a pantalla completa: animación de puntos, borrar notas solas, resaltar números iguales, mostrar temporizador, límites de errores y de pistas (5 · 10 · 15), Estadísticas y Cómo jugar.",
+    "Estadísticas: pestañas Fácil, Medio, Difícil, Experto y Del día, con % de victorias, rachas, sin errores, sin pistas, mejor puntaje, mejor tiempo y promedios."
   ],
   "historial": [
+    {
+      "version": "0.38.0",
+      "novedades": [
+        "Sudoku con diseño nuevo. El menú ahora tiene arriba la tarjeta del Desafío del día con la semana, después Continuar y los cuatro niveles con su tablerito y tu récord de puntos. Abajo, la barra Diario · Estadísticas · Ajustes, como en el solitario.",
+        "Desafío del día: un sudoku nuevo cada día, el mismo para todos. Lunes y martes es Fácil, miércoles y jueves Medio, viernes y sábado Difícil, y el domingo Experto. Lleva racha y su propia hoja con la semana, completados y mejor tiempo. Una partida del día a medias no se pierde al empezar otra.",
+        "Puntaje: cada casilla correcta suma según el nivel (Fácil 20, Medio 60, Difícil 100, Experto 150), completar una fila, columna, caja o los nueve de un número da el doble de la base, un error resta y la casilla de una Pista no suma. Al ganar hay bonus por rapidez y por cero errores, y se marca el ¡Récord!. Los puntos que ganas suben desde la casilla.",
+        "Partida: arriba Errores · Puntos · Tiempo, botón de pausa (tapa el tablero), herramientas redondas (Notas dice SÍ/NO y Pista cuántas quedan) y el teclado muestra cuántos faltan de cada número.",
+        "Ajustes a pantalla completa: animación de puntos, borrar notas solas, resaltar números iguales, mostrar temporizador, límites de errores y de pistas (5 · 10 · 15), Estadísticas y Cómo jugar.",
+        "Estadísticas: pestañas Fácil, Medio, Difícil, Experto y Del día, con % de victorias, rachas, sin errores, sin pistas, mejor puntaje, mejor tiempo y promedios."
+      ],
+      "fecha": "2026-10-22"
+    },
     {
       "version": "0.37.0",
       "novedades": [
@@ -61,19 +78,11 @@
         "Instrucciones la primera vez. Al entrar por primera vez al sudoku, al ajedrez o al solitario se abren solas las instrucciones. A quien ya había jugado no le salen; siempre están en el botón «?» (y en el solitario también en Ajustes › Cómo jugar)."
       ],
       "fecha": "2026-10-21"
-    },
-    {
-      "version": "0.32.0",
-      "novedades": [
-        "Solitario: hoja de Nueva. Al tocar Nueva sale una hoja abajo con Diario, Nuevo reparto y Volver a jugar (empieza otra vez las mismas cartas), y una X para cerrarla. «Otra partida» al ganar abre la misma hoja.",
-        "Solitario: pantalla de Ajustes. Ahora es una lista por secciones con interruptores: Sonidos, Autocompletar (mostrar el botón), Recolección automática (sube las cartas sola cuando se puede), Modo sacar 3, Preguntar el modo, Mostrar temporizador y Cómo jugar."
-      ],
-      "fecha": "2026-10-21"
     }
   ],
-  "paquete": "paquetes/0.37.0.pck",
-  "tamano": 19713240,
-  "sha256": "998080a3d5e78aab7893505085f68cb42ad054a2f0afd8349bd97b71ac861285",
+  "paquete": "paquetes/0.38.0.pck",
+  "tamano": 19753508,
+  "sha256": "57ace09c10a32c0582d40a6c7f66827f88a8053fc81652fd5a202bd606aa8cb1",
   "apk": "Pausa-Clasicos.apk",
   "apk_minimo": 9,
   "commit_apk": "e45645069d6c5cc3bdfa25efcd77d3741cf4747c",
