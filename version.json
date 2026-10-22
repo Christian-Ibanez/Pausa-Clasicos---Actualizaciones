@@ -1,15 +1,17 @@
 {
-  "version": "0.38.0",
+  "version": "0.38.1",
   "fecha": "2026-10-22",
   "novedades": [
-    "Sudoku con diseño nuevo. El menú ahora tiene arriba la tarjeta del Desafío del día con la semana, después Continuar y los cuatro niveles con su tablerito y tu récord de puntos. Abajo, la barra Diario · Estadísticas · Ajustes, como en el solitario.",
-    "Desafío del día: un sudoku nuevo cada día, el mismo para todos. Lunes y martes es Fácil, miércoles y jueves Medio, viernes y sábado Difícil, y el domingo Experto. Lleva racha y su propia hoja con la semana, completados y mejor tiempo. Una partida del día a medias no se pierde al empezar otra.",
-    "Puntaje: cada casilla correcta suma según el nivel (Fácil 20, Medio 60, Difícil 100, Experto 150), completar una fila, columna, caja o los nueve de un número da el doble de la base, un error resta y la casilla de una Pista no suma. Al ganar hay bonus por rapidez y por cero errores, y se marca el ¡Récord!. Los puntos que ganas suben desde la casilla.",
-    "Partida: arriba Errores · Puntos · Tiempo, botón de pausa (tapa el tablero), herramientas redondas (Notas dice SÍ/NO y Pista cuántas quedan) y el teclado muestra cuántos faltan de cada número.",
-    "Ajustes a pantalla completa: animación de puntos, borrar notas solas, resaltar números iguales, mostrar temporizador, límites de errores y de pistas (5 · 10 · 15), Estadísticas y Cómo jugar.",
-    "Estadísticas: pestañas Fácil, Medio, Difícil, Experto y Del día, con % de victorias, rachas, sin errores, sin pistas, mejor puntaje, mejor tiempo y promedios."
+    "Ajedrez: el botón Nueva partida ahora pregunta «¿Empezar una partida nueva?» antes de reiniciar, para no perder la partida por un toque sin querer. Si todavía no hay jugadas o la partida ya terminó, empieza de inmediato."
   ],
   "historial": [
+    {
+      "version": "0.38.1",
+      "novedades": [
+        "Ajedrez: el botón Nueva partida ahora pregunta «¿Empezar una partida nueva?» antes de reiniciar, para no perder la partida por un toque sin querer. Si todavía no hay jugadas o la partida ya terminó, empieza de inmediato."
+      ],
+      "fecha": "2026-10-22"
+    },
     {
       "version": "0.38.0",
       "novedades": [
@@ -68,21 +70,11 @@
         "Solitario: se quitó el texto «Incluye … de bonus por rapidez» de la pantalla de victoria (el bonus se sigue sumando al puntaje)."
       ],
       "fecha": "2026-10-21"
-    },
-    {
-      "version": "0.33.0",
-      "novedades": [
-        "Solitario: puntaje. Se ganan puntos al jugar (+10 por carta a la fundación, +5 del descarte a una columna, +5 por dar vuelta una carta oculta) y se pierden con algunas jugadas (−15 de la fundación a una columna, −20 por dar vuelta el mazo en modo fácil, −10 por pista). Al ganar se suma un bonus por rapidez (700 000 ÷ segundos). Los puntos se ven arriba durante la partida.",
-        "Solitario: nueva pantalla de victoria. Abanico de cartas, cinta «¡Victoria!» y una tabla Tú / Mejor con puntos, tiempo y movimientos; donde se supera la mejor marca dice «¡Récord!». Las marcas se guardan aparte para modo fácil y difícil. Botones: casita (menú) y Nuevo reparto.",
-        "Solitario: Deshacer cuenta como movimiento. Antes restaba; ahora el contador sube y se quitan los puntos que había dado esa jugada.",
-        "Instrucciones la primera vez. Al entrar por primera vez al sudoku, al ajedrez o al solitario se abren solas las instrucciones. A quien ya había jugado no le salen; siempre están en el botón «?» (y en el solitario también en Ajustes › Cómo jugar)."
-      ],
-      "fecha": "2026-10-21"
     }
   ],
-  "paquete": "paquetes/0.38.0.pck",
-  "tamano": 19753508,
-  "sha256": "57ace09c10a32c0582d40a6c7f66827f88a8053fc81652fd5a202bd606aa8cb1",
+  "paquete": "paquetes/0.38.1.pck",
+  "tamano": 19756864,
+  "sha256": "d0ed1cdac0b44b44b2c80b1be781f58fd731c56d3ba908b63a0d1a4109d301c3",
   "apk": "Pausa-Clasicos.apk",
   "apk_minimo": 9,
   "commit_apk": "e45645069d6c5cc3bdfa25efcd77d3741cf4747c",
